@@ -51,9 +51,12 @@ resource "aws_instance" "santest" {
 resource "aws_instance" "sanket_ins" {
   instance_type = "t2.micro"
   ami           = "ami-053b0d53c279acc90"
-  subnet_id     = aws_subnet.my_subnet.id 
   tags = {
     Name = "sanket"
   }
+}
+resource "aws_instance" "knk" {
+  instance_type = "t2.micro"
+  ami           = "ami-053b0d53c279acc90"
 
 }
