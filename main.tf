@@ -28,11 +28,9 @@ resource "aws_instance" "santest" {
 }
 
 
-resource "aws_instance" "sanket_ins" {
+
+=======
+resource "aws_instance" "knk" {
   instance_type = "t2.micro"
   ami           = "ami-053b0d53c279acc90"
-  tags = {
-    Name = "sanket"
-  }
-
 }
