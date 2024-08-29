@@ -60,3 +60,4 @@ resource "aws_instance" "knk" {
   ami           = "ami-053b0d53c279acc90"
 
 }
+
