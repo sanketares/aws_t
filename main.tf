@@ -20,3 +20,9 @@ resource "aws_dynamodb_table" "terraform_lock1" {
     type = "S"
   }
 }
+
+
+resource "aws_instance" "santest" {
+  instance_type = "t2.micro"
+  ami           = "ami-053b0d53c279acc90"
+}
